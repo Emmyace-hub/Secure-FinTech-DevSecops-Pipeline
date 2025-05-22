@@ -1,0 +1,76 @@
+# Node modules (for Node.js projects)
+node_modules/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Compiled files
+*.class
+*.o
+*.out
+*.so
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# Build directories
+dist/
+build/
+tmp/
+temp/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Dependency directories
+vendor/
+
+# Package managers (e.g., yarn, pipenv)
+.pnp/
+.pnp.js
+pip-wheel-metadata/
+
+# Lock files (optional based on team decision)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+poetry.lock
+Pipfile.lock
+
+# Docker files
+*.pid
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Ansible
+*.retry
+
+# Secrets
+secrets.yml
+*.pem
+*.key
+
+# Backup files
+*~
+*.bak
+*.tmp
+*.old
